@@ -1,0 +1,284 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#dicount{
+    background-color: #1f1f1f ;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+#navbar{
+    display: flex;
+    margin: auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+}
+
+#navbutton{
+    width: 40%;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+    /* border: 1px solid blue; */
+}
+
+a{
+    margin: auto;
+    text-decoration: none;
+    color: black;
+}
+
+#logo>img{
+    /* border: 1px solid green; */
+    height: 50px;
+    padding-top: 10px;
+}
+
+select{
+    -webkit-appearance: none;
+    border: none;
+    width: 15%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+}
+
+option{
+    text-align: left;
+}
+
+#icon{
+    width: 15%;
+    height: 40px;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+#mainImg{
+    width: 100%;
+    height: 450px;
+    /* border: 1px solid red; */
+}
+
+#mainImg > img{
+    width: 100%;
+    height: 450px;
+}
+
+#boxes3{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    /* border: 1px solid red; */
+}
+
+#boxes3 > div > img{
+    width: 100%;
+}
+
+h1{
+    margin-top: 60px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#shopCat{
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+#shopCat > div > img{
+    width: 100%;
+}
+
+#bestSell{
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+#newArr{
+    height: 300px;
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+}
+
+#newArr > div img{
+    width: 100%;
+}
+
+#para{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+    font-size: 17px;
+    text-align: justify;
+    line-height: 30px;
+    font-family: sans-serif;
+}
+
+#benefits{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    /* border: 1px solid red; */
+}
+
+#benefits button{
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+#benefits > div{
+    line-height: 40px;
+    font-family: sans-serif;
+}
+
+#benefits > div > img{
+    width: 100%;
+}
+
+#info{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+#info > div{
+    /* border: 1px solid blue; */
+    display: flex;
+    width: 97%;
+    
+}
+#info > div > div:nth-child(1){
+    width: 20%;
+    height: 60px;
+    margin-top: 25px;
+    /* border: 1px solid red; */
+    display: block;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#info > div > div + div{
+    width: 80%;
+    /* border: 1px solid blue; */
+    height: 100px;
+}
+
+#footer{
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    background-color: #1f1f1f;
+}
+
+#footInfo{
+    display: flex;
+}
+
+#footer > h2{
+    color: white;
+    font-family: sans-serif;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#footer > #footForm{
+    margin: auto;
+    text-align: center;
+}
+
+#footer > #footForm > input[type="email"]{
+    width: 30%;
+    height: 50px;
+    background-color: #303030;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+#footer > #footForm > input[type="submit"]{
+    background-color: #525252;
+    border: none;
+    color: white;
+    width: 10%;
+    height: 50px;
+    font-size: 20px;
+}
+
+#footer  p, h6{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+
+#footInfo img{
+    width: 100%;
+}
+
+#footInfo > div:nth-child(1){
+    width: 25%;
+    height: 150px;
+    padding-left: 50px;
+    padding-top: 40px;
+    justify-content: center;
+}
+
+#footInfo > div:nth-child(2){
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+hr{
+    border: 1px solid #2b2b2b;
+}
+
+#copyright{
+    color: white;
+    /* margin-left: 50px; */
+    font-family: sans-serif;
+}
+
+#media{
+    display: flex;
+    justify-content: space-around;
+}
