@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uboric</title>
+    <script src="https://kit.fontawesome.com/067eedc3e0.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="dicount">
+        FOR ONLINE PAYMENT EXTRA ₹10% DISCOUNT ON ORDERS ABOVE ₹500
+    </div>
+    <div id="navbar">
+        <div id="logo">
+            <img src="https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/200x80black.png" alt="logo">
+        </div>
+        <div id="navbutton">
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Shop</a>
+            <select name="" id="categories">
+                <option value="">Categories</option>
+                <option value="Clothing">Clothing</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Electric Appliances">Electric Appliances</option>
+                <option value="Foot Wear">Foot Wear</option>
+                <option value="Paintings & Art">Paintings & Art</option>
+                <option value="Anti puncture Liquid">Anti puncture Liquid</option>
+                <option value="Health & Personal Care">Health & Personal Care</option>
+                <option value="Personal Care">Personal Care</option>
+            </select>
+            <a href="">Contact Us</a>
+        </div>
+        <div id="icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-user"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+    </div>
+
+    <div id="mainImg">
+        <img src="https://www.lanescarlisle.co.uk/wp-content/uploads/2018/02/mothers-day-clothing-banner-image.jpg" alt="mainImage">
+    </div>
+
+    <div id="boxes3">
+        <div>
+            <img src="https://img.freepik.com/premium-vector/kitchen-frame-composition-with-editable-text-surrounded-by-images-cooking-utensils-pots-pans-cutlery-illustration_1284-65726.jpg?w=2000" alt="">
+        </div>
+        <div>
+            <img src="https://img.freepik.com/premium-vector/kitchen-frame-composition-with-editable-text-surrounded-by-images-cooking-utensils-pots-pans-cutlery-illustration_1284-65726.jpg?w=2000" alt="">
+        </div>
+        <div>
+            <img src="https://img.freepik.com/premium-vector/kitchen-frame-composition-with-editable-text-surrounded-by-images-cooking-utensils-pots-pans-cutlery-illustration_1284-65726.jpg?w=2000" alt="">
+        </div>
+    </div>
+    <div>
+        <h1>Shop By Category</h1>
+    </div>
+    
+    <div id="shopCat">
+        <div>
+            <img src="https://www.uboric.com/wp-content/uploads/2022/08/banner2-1.jpg" alt="">
+            
+        </div>
+        <div>
+            <img src="https://www.uboric.com/wp-content/uploads/2022/08/banner1-1-1.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://www.uboric.com/wp-content/uploads/2022/08/banner3-1.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://www.uboric.com/wp-content/uploads/2022/08/banner4-1.jpg" alt="">
+        </div>
+    </div>
+
+    <h1>Best Selling Product</h1>
+    <div id="bestSell">
+        <div>
+            <img src="https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-02-24_12-22-08-370x370.jpg" alt="">
+            <p>Quick & Easy 6 Blade Push Chopper 1000ML</p>
+            <p><strike>₹799.00</strike> ₹399.00</p>
+        </div>
+        <div>
+            <img src="https://www.uboric.com/wp-content/uploads/2022/08/51cxdRTGe6L._SL1066_-370x370.jpg" alt="">
+            <p>Quick & Easy 6 Blade Push Chopper 1000ML</p>
+            <p><strike>₹799.00</strike> ₹399.00</p>
+        </div>
+        <div>
+            <img src="https://www.uboric.com/wp-content/uploads/2022/08/shoptool-24-370x370.jpg" alt="">
+            <p>Quick & Easy 6 Blade Push Chopper 1000ML</p>
+            <p><strike>₹799.00</strike> ₹399.00</p>
+        </div>
+    </div>
+    <h1>New Arrivals</h1>
+    <div id="newArr">
+        <div>
+            <img src="https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-08-09-at-1.27.07-AM-370x370.jpeg" alt="">
+            <p>Men shirt magic cotton with digital print in multi color in red</p>
+            <p><strike>₹1,199.00</strike> ₹795.00</p>
+        </div>
+        <div>
+            <img src="https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-08-09-at-1.27.06-AM-1-370x370.jpeg" alt="">
+            <p>Men shirt magic cotton with digital print in multi color in red</p>
+            <p><strike>₹1,199.00</strike> ₹795.00</p>
+        </div>
+        <div>
+            <img src="https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-08-09-at-1.27.06-AM2-370x370.jpeg" alt="">
+            <p>Men shirt magic cotton with digital print in multi color in red</p>
+            <p><strike>₹1,199.00</strike> ₹795.00</p>
+        </div>
+        <div>
+            <img src="https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-08-09-at-1.27.06-AM1-370x370.jpeg" alt="">
+            <p>Men shirt magic cotton with digital print in multi color in red</p>
+            <p><strike>₹1,199.00</strike> ₹795.00</p>
+        </div>
+        <div>
+            <img src="https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-08-09-at-1.27.06-AM-370x370.jpeg" alt="">
+            <p>Men shirt magic cotton with digital print in multi color in red</p>
+            <p><strike>₹1,199.00</strike> ₹795.00</p>
+        </div>
+        <div>
+            <img src="https://www.uboric.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-08-09-at-1.27.05-AM-1-370x370.jpeg" alt="">
+            <p>Men shirt magic cotton with digital print in multi color in red</p>
+            <p><strike>₹1,199.00</strike> ₹795.00</p>
+        </div>
+    </div>
+    <h1>The Ultimate Domestic Online Shopping Experience Platform in India</h1>
+    <div id="para">
+        <p>Online shopping with Uboric is quick, convenient and trouble-free. You can shop for the desired product right from the comfort of your home and get them delivered straight to your doorstep. Uboric offers you the chance to choose top branded products sitting in the comfort of your homes and just clicking on your requirements to get it delivered at your doorstep. Your search for the latest trending variety of unique products ends right here. A wide range of international products from global brands are available at your fingertips. We provide you with a world-class online shopping experience, along with superior service, to suit all your specific requirements. Our products are very reasonably priced and are not easily available elsewhere. Our high-end technology-based systems, combined with a human approach, ensure that you have an amazing and blissful online shopping experience with us. Our emphasis on customer delight drives every activity we undertake to provide you an ultimate, hassle-free and pleasant shopping experience. Our diverse categories of products comprise of fashion & jewellery, mobiles and tablets, home and furniture, electronics, health care and supplements, sports and fitness, beauty and perfumes. We offer almost every variety of product that your heart desires. Just Go Ahead and Explore the magical world of online shopping with Uboric! 24×7 Customer Care: For all your queries and concerns regarding your shopping orders.</p>
+    </div>
+    <div id="benefits">
+        <div>
+            <h2>Benefits Of Shopping</h2>
+            <p>User-Friendly</p>
+            <p>User-Friendly</p>
+            <p>Check Out Closely</p>
+            <p>Multiple Payment Options</p>
+            <p>Order History</p>
+            <button>Shop Now</button>
+        </div>
+        <div>
+            <img src="https://www.uboric.com/wp-content/uploads/2022/08/61OR0aPLJAL._SL1500_-670x575.jpg" alt="">
+        </div>
+    </div>
+    <div id="info">
+        <div>
+            <div>
+                <img src="https://demo4.drfuri.com/media/razzi/truck3.svg" alt="">
+            </div>
+            <div>
+                <p>FREE SHIPPING</p>
+                <p>From all orders over Rs 500</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img src="https://demo4.drfuri.com/media/razzi/money.svg" alt="">
+            </div>
+            <div>
+                <p>FREE RETURNS</p>
+                <p>Return money within 30 days</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img src="https://demo4.drfuri.com/media/razzi/box.svg" alt="">
+            </div>
+            <div>
+                <p>SECURE SHOPPING</p>
+                <p>You're in safe hands</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img src="https://demo4.drfuri.com/media/razzi/like.svg" alt="">
+            </div>
+            <div>
+                <p>OVER 10,000 STYLES</p>
+                <p>We have everything you need</p>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <h2>Want style Ideas and Treats?</h2>
+        <form action="" id="footForm">
+            <input type="email" placeholder="Enter Email *" id="email" required>
+            <input type="submit" value="Subscribe">
+        </form>
+        <hr>
+        <div id="footInfo">
+            <div>
+                <img src="https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/uboric.png" alt="">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div>
+                <div>
+                    <h6>SUPPORT</h6>
+                    <p>About Us</p>
+                    <p>Contact Us</p>
+                </div>
+                <div>
+                    <h6>SHOP</h6>
+                    <p>My account</p>
+                </div>
+                <div>
+                    <h6>COMPANY</h6>
+                    <p>Shipping & Returns</p>
+                    <p>Privacy Policy</p>
+                    <p>Terms & Conditions</p>
+                </div>
+                <div>
+                    <h6>CONTACT</h6>
+                    <p>Customer Care</p>
+                    <p>Contact Support Available</p>
+                    <p>Mon To Sat : 10:00 Am to 6:00 Pm</p>
+                    <p>E-mail</p>
+                    <p>uboricllp@gmail.com</p>
+                    <p>Mobile</p>
+                    <p>+91 97243 82162</p>
+                    <p>+91 82000 99386</p>
+                </div>
+            </div>
+            
+        </div>
+        <hr>
+        <div id="media">
+            <div>
+                <h5 id="copyright">© 2019 - 2022 UBORIC. ALL RIGHTS RESERVED.</h5>
+            </div>
+            <div >
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="index.js"></script>
