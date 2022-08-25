@@ -35,26 +35,84 @@
             <a href="">Contact Us</a>
         </div>
         <div id="icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-regular fa-user"></i>
-            <i class="fa-regular fa-heart"></i>
-            <i class="fa-solid fa-bag-shopping"></i>
+            <a href="#" id="click-b" onClick="openSearch()"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#" id="click-a" onClick="openNav()"><i class="fa-regular fa-user"></i></a>
+            <a href="#"><i class="fa-regular fa-heart"></i></a>
+            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
         </div>
     </div>
 
+    <div id="mySidenav" class="sidenav">
+        <div id="top">
+            <h4>Sign in</h4>
+            <a href="#"><i class="fa-solid fa-x" onClick="closeNav()"></i></a>
+        </div>
+        <hr>
+        <form action="" id="login">
+            <input type="email" id="loginEmail" placeholder="Email">
+            <input type="password" id="password" placeholder="Password">
+            <input type="checkbox" id="checkbox" name="Remember me">
+            <label for="Remember me">Remember me</label>
+            <a href="">Lost your password?</a><br>
+            <input type="submit" value="Sign in">
+            <p href="SignUp" id="SignUp" onClick="openReg()">New User? Register Here</p>
+        </form>
+    </div>
+
+    <div id="mySearch" class="search">
+        <div id="top-search">
+            <h4>Search Products</h4>
+            <a href="#"><i class="fa-solid fa-x" onclick="closeSearch()"></i></a>
+        </div>
+        <hr>
+        <div id="box">
+            <select name="" id="search-cat">
+                <option value="All Categories">All Categories</option>
+                <option value="Anniversary">Anniversary</option>
+                <option value="Anti puncture Liquid">Anti puncture Liquid</option>
+                <option value="Bathroom Accessories">Bathroom Accessories</option>
+                <option value="Best Seller">Best Seller</option>
+                <option value="Bra Sets">Bra Sets</option>
+                <option value="Chopper">Chopper</option>
+                <option value="Clothing">Clothing</option>
+                <option value="Men's fashion">Men's fashion</option>
+                <option value="Women's Fashion">Women's Fashion</option>
+                <option value="Daywear">Daywear</option>
+                <option value="Electric Appliances">Electric Appliances</option>
+                <option value="Electronics">Electronics</option>
+            </select>
+            <input type="text" placeholder="Search for items" id="search-box">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+
+    <div id="myRegister" class="register">
+        <div id="top-reg">
+            <h4>Sign up</h4>
+            <a href="#" onClick="closeReg()"><i class="fa-solid fa-x"></i></a>
+        </div>
+        <hr>
+        <form action="" id="regis">
+            <input type="text" placeholder="Username" id="regUsename">
+            <input type="email" placeholder="Email" id="regEmail">
+            <input type="password" placeholder="Password" id="regPassword" minlength="8" required><br>
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+
     <div id="mainImg">
-        <img src="https://www.lanescarlisle.co.uk/wp-content/uploads/2018/02/mothers-day-clothing-banner-image.jpg" alt="mainImage">
+        <img src="https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/electronics.jpg" alt="mainImage">
     </div>
 
     <div id="boxes3">
         <div>
-            <img src="https://img.freepik.com/premium-vector/kitchen-frame-composition-with-editable-text-surrounded-by-images-cooking-utensils-pots-pans-cutlery-illustration_1284-65726.jpg?w=2000" alt="">
+            <img src="https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/kithchen-tools.jpg" alt="">
         </div>
         <div>
-            <img src="https://img.freepik.com/premium-vector/kitchen-frame-composition-with-editable-text-surrounded-by-images-cooking-utensils-pots-pans-cutlery-illustration_1284-65726.jpg?w=2000" alt="">
+            <img src="https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/Air-Tight-Containers.jpg" alt="">
         </div>
         <div>
-            <img src="https://img.freepik.com/premium-vector/kitchen-frame-composition-with-editable-text-surrounded-by-images-cooking-utensils-pots-pans-cutlery-illustration_1284-65726.jpg?w=2000" alt="">
+            <img src="https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/Gas-Lighter-1024x1024-1.jpg" alt="">
         </div>
     </div>
     <div>
