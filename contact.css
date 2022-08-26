@@ -1,0 +1,67 @@
+#contact{
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 400px 800px;
+    gap: 20px;
+    /* border: 1px solid red; */
+}
+
+h2{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#contact > div{
+    border: 0px solid blue;
+}
+
+#deatails > div{
+    display: flex;
+    margin: auto;
+    justify-content: left;
+}
+
+#deatails > div > img{
+    padding-right: 20px;
+}
+
+#fill{
+    line-height: 100px;
+    justify-content: center;
+}
+#name{
+    width: 90%;
+    height: 50px;
+}
+
+#email{
+    width: 90%;
+    height: 50px;
+}
+
+#number{
+    width: 90%;
+    height: 50px;
+}
+
+#title{
+    width: 90%;
+    height: 50px;
+}
+
+#message{
+    width: 90%;
+    height: 150px;
+    text-align: start;
+}
+
+input[type=submit]{
+    background-color: #1f1f1f;
+    color: white;
+    border: none;
+    width: 25%;
+    height: 50px;
+    font-size: 18px;
+}
