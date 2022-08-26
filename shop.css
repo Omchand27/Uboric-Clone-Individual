@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#main{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+#cat{
+    width: 20%;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+
+#shop{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 31%);
+    gap: 20px;
+    /* border: 1px solid blue; */
+}
+
+#shop > div{
+    /* border: 1px solid greenyellow; */
+    text-align: center;
+    margin: auto;
+    height: auto;
+}
+
+#shop > div  img{
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#shop > div img:hover{
+    transform: scale(1.050);
+}
+
+#shop > div > img{
+    display: block;
+    margin: auto;
+    width: 80%;
+}

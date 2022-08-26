@@ -1,0 +1,21 @@
+#mainImg{
+    width: 80%;
+    margin: 3% auto;
+    /* border: 1px solid red; */
+    margin-bottom: 200px;
+}
+
+#mainImg > img{
+    display: block;
+    width: 100%;
+}
+
+#story{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+    font-family: sans-serif;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+

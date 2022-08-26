@@ -62,12 +62,10 @@ function regData(e){
 
 document.querySelector("#login").addEventListener("submit", loginData)
 
-let data = JSON.parse(localStorage.getItem("registerdata")) || [];
-
 function loginData(e){
     e.preventDefault();
-    data.forEach(function(ele){
-        console.log();
+    regArr.forEach(function(ele){
+        
         if(document.querySelector("#loginEmail").value === ele.email && document.querySelector("#password").value === ele.password){
             alert("Login Successful")
         }else{
