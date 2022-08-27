@@ -19,7 +19,7 @@ body{
     background-color: white;
     position: sticky;
     top: 0px;
-    z-index: 1;
+    z-index: 2;
     /* border: 1px solid red; */
     justify-content: space-around;
 }
@@ -55,6 +55,10 @@ a{
     height: 50px;
     font-size: 16px;
 }
+button{
+    cursor: pointer;
+}
+
 #search-cat{
     padding-left: 10px;
     -webkit-appearance: none;
@@ -283,15 +287,25 @@ option{
     padding-left: 150px;
 }
 
+.swiper{
+    width: 100%;
+    height: 85vh;
+}
+
+.swiper img{
+    width: 100%;
+    display: block;
+}
+
 #mainImg{
     width: 100%;
-    height: 550px;
+    height: 85vh;
+    z-index: 1;
     /* border: 1px solid red; */
 }
 
 #mainImg > img{
     width: 100%;
-    height: 550px;
 }
 
 #boxes3{
