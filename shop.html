@@ -42,9 +42,202 @@
             <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
         </div>
     </div>
+
+    <div id="mySidenav" class="sidenav">
+        <div id="top">
+            <h4>Sign in</h4>
+            <a href="#"><i class="fa-solid fa-x" onClick="closeNav()"></i></a>
+        </div>
+        <hr>
+        <form action="" id="login">
+            <input type="email" id="loginEmail" placeholder="Email">
+            <input type="password" id="password" placeholder="Password">
+            <input type="checkbox" id="checkbox" name="Remember me">
+            <label for="Remember me">Remember me</label>
+            <a href="">Lost your password?</a><br>
+            <input type="submit" value="Sign in">
+            <p href="SignUp" id="SignUp" onClick="openReg()">New User? Register Here</p>
+        </form>
+    </div>
+
+    <div id="mySearch" class="search">
+        <div id="top-search">
+            <h4>Search Products</h4>
+            <a href="#"><i class="fa-solid fa-x" onclick="closeSearch()"></i></a>
+        </div>
+        <hr>
+        <div id="box">
+            <select name="" id="search-cat">
+                <option value="All Categories">All Categories</option>
+                <option value="Anniversary">Anniversary</option>
+                <option value="Anti puncture Liquid">Anti puncture Liquid</option>
+                <option value="Bathroom Accessories">Bathroom Accessories</option>
+                <option value="Best Seller">Best Seller</option>
+                <option value="Bra Sets">Bra Sets</option>
+                <option value="Chopper">Chopper</option>
+                <option value="Clothing">Clothing</option>
+                <option value="Men's fashion">Men's fashion</option>
+                <option value="Women's Fashion">Women's Fashion</option>
+                <option value="Daywear">Daywear</option>
+                <option value="Electric Appliances">Electric Appliances</option>
+                <option value="Electronics">Electronics</option>
+            </select>
+            <input type="text" placeholder="Search for items" id="search-box">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+
+    <div id="myRegister" class="register">
+        <div id="top-reg">
+            <h4>Sign up</h4>
+            <a href="#" onClick="closeReg()"><i class="fa-solid fa-x"></i></a>
+        </div>
+        <hr>
+        <form action="" id="regis">
+            <input type="text" placeholder="Username" id="regUsename">
+            <input type="email" placeholder="Email" id="regEmail">
+            <input type="password" placeholder="Password" id="regPassword" minlength="8" required><br>
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
     <div id="main">
         <div id="cat">
+            <div class="container">
+                <div class="select-btn">
+                    <span class="btn-text">Price</span>
+                    <span class="arrow-dwn">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                </div>
 
+                <ul class="list-items">
+                    <li class="item">
+                        <span class="checkbox">
+                            <i class="fa-solid fa-check check-icon"></i>
+                        </span>
+                        <span class="item-text">₹10.00 - ₹49.00</span>
+                    </li>
+                    <li class="item">
+                        <span class="checkbox">
+                            <i class="fa-solid fa-check check-icon"></i>
+                        </span>
+                        <span class="item-text">₹50.00 - ₹99.00</span>
+                    </li>
+                    <li class="item">
+                        <span class="checkbox">
+                            <i class="fa-solid fa-check check-icon"></i>
+                        </span>
+                        <span class="item-text">₹100.00 - ₹199.00</span>
+                    </li>
+                    <li class="item">
+                        <span class="checkbox">
+                            <i class="fa-solid fa-check check-icon"></i>
+                        </span>
+                        <span class="item-text">₹200.00 +</span>
+                    </li>
+                </ul>
+
+                <div class="select-btn1">
+                    <span class="btn-text1">Category</span>
+                    <span class="arrow-dwn1">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                </div>
+
+                <ul class="list-items1">
+                    <li class="item1">
+                        <span class="checkbox1">
+                            <i class="fa-solid fa-check check-icon1"></i>
+                        </span>
+                        <span class="item-text1">Foot Wear</span>
+                    </li>
+                    <li class="item1">
+                        <span class="checkbox1">
+                            <i class="fa-solid fa-check check-icon1"></i>
+                        </span>
+                        <span class="item-text1">Kitchen Ware</span>
+                    </li>
+                    <li class="item1">
+                        <span class="checkbox1">
+                            <i class="fa-solid fa-check check-icon1"></i>
+                        </span>
+                        <span class="item-text1">Electronics</span>
+                    </li>
+                    <li class="item1">
+                        <span class="checkbox1">
+                            <i class="fa-solid fa-check check-icon1"></i>
+                        </span>
+                        <span class="item-text1">Uncategorized</span>
+                    </li>
+                    <li class="item1">
+                        <span class="checkbox1">
+                            <i class="fa-solid fa-check check-icon1"></i>
+                        </span>
+                        <span class="item-text1">Anti puncture Liquid</span>
+                    </li>
+                    <li class="item1">
+                        <span class="checkbox1">
+                            <i class="fa-solid fa-check check-icon1"></i>
+                        </span>
+                        <span class="item-text1">Bathroom Accessories</span>
+                    </li>
+                    <li class="item1">
+                        <span class="checkbox1">
+                            <i class="fa-solid fa-check check-icon1"></i>
+                        </span>
+                        <span class="item-text1">Chopper</span>
+                    </li>
+                    <li class="item1">
+                        <span class="checkbox1">
+                            <i class="fa-solid fa-check check-icon1"></i>
+                        </span>
+                        <span class="item-text1">Men's fashion</span>
+                    </li>
+                    <li class="item1">
+                        <span class="checkbox1">
+                            <i class="fa-solid fa-check check-icon1"></i>
+                        </span>
+                        <span class="item-text1">Women's Fashion</span>
+                    </li>
+                    <li class="item1">
+                        <span class="checkbox1">
+                            <i class="fa-solid fa-check check-icon1"></i>
+                        </span>
+                        <span class="item-text1">Electric Appliances</span>
+                    </li>
+                    <li class="item1">
+                        <span class="checkbox1">
+                            <i class="fa-solid fa-check check-icon1"></i>
+                        </span>
+                        <span class="item-text1">Grocery</span>
+                    </li>
+                    <li class="item1">
+                        <span class="checkbox1">
+                            <i class="fa-solid fa-check check-icon1"></i>
+                        </span>
+                        <span class="item-text1">Household Supplies</span>
+                    </li>
+                    <li class="item1">
+                        <span class="checkbox1">
+                            <i class="fa-solid fa-check check-icon1"></i>
+                        </span>
+                        <span class="item-text1">Industrial Supplies</span>
+                    </li>
+                    <li class="item1">
+                        <span class="checkbox1">
+                            <i class="fa-solid fa-check check-icon1"></i>
+                        </span>
+                        <span class="item-text1">Watches</span>
+                    </li>
+                    <li class="item1">
+                        <span class="checkbox1">
+                            <i class="fa-solid fa-check check-icon1"></i>
+                        </span>
+                        <span class="item-text1">Jewellery</span>
+                    </li>
+                </ul>
+                
+            </div>
         </div>
         <div id="shop">
             
@@ -56,3 +249,4 @@
 </html>
 
 <script src="shop.js"></script>
+<script src="common.js"></script>

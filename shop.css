@@ -47,3 +47,127 @@
     margin: auto;
     width: 80%;
 }
+
+.container{
+    position: relative;
+    max-width: 320px;
+    width: 100%;
+}
+
+.select-btn{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.select-btn .btn-text{
+    color: #333;
+    font-weight: 400;
+}
+
+.select-btn .arrow-dwn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-btn.open ~ .list-items{
+    display: block;
+}
+
+.list-items{
+    position: relative;
+    display: none;
+}
+
+.list-items .item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.item .checkbox{
+    height: 16px;
+    width: 16px;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 1px solid #c0c0c0;
+    transition: all 0.3s ease-in-out;
+}
+
+.checkbox .check-icon{
+    font-size: 11px;
+    transform: scale(0);
+}
+
+.checkbox .check-icon:hover{
+    transform: scale(0);
+}
+
+.item{
+    margin-bottom: 20px;
+}
+
+.item.checked .check-icon{
+    transform: scale(1);
+}
+
+.select-btn1{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.select-btn1 .btn-text1{
+    color: #333;
+    font-weight: 400;
+}
+
+.select-btn1 .arrow-dwn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-btn1.open ~ .list-items1{
+    display: block;
+}
+
+.list-items1{
+    position: relative;
+    display: none;
+}
+
+.list-items1 .item1{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.item1 .checkbox1{
+    height: 16px;
+    width: 16px;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 1px solid #c0c0c0;
+    transition: all 0.3s ease-in-out;
+}
+
+.checkbox1 .check-icon1{
+    font-size: 11px;
+    transform: scale(0);
+}
+
+.item1{
+    margin-bottom: 20px;
+}
