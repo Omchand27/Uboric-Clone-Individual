@@ -39,7 +39,7 @@
             <a href="#" id="click-b" onClick="openSearch()"><i class="fa-solid fa-magnifying-glass"></i></a>
             <a href="#" id="click-a" onClick="openNav()"><i class="fa-regular fa-user"></i></a>
             <a href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
-            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a href="payment.html"><i class="fa-solid fa-bag-shopping"></i></a>
         </div>
     </div>
 
@@ -111,30 +111,30 @@
                 </div>
 
                 <ul class="list-items">
-                    <li class="item">
+                    <li class="item" id="price49">
                         <span class="checkbox">
                             <i class="fa-solid fa-check check-icon"></i>
                         </span>
-                        <span class="item-text">₹10.00 - ₹49.00</span>
+                        <span class="item-text">Low to High</span>
                     </li>
-                    <li class="item">
+                    <li class="item" id="price99">
                         <span class="checkbox">
                             <i class="fa-solid fa-check check-icon"></i>
                         </span>
-                        <span class="item-text">₹50.00 - ₹99.00</span>
+                        <span class="item-text">High to Low</span>
                     </li>
-                    <li class="item">
+                    <!-- <li class="item" id="price199">
                         <span class="checkbox">
                             <i class="fa-solid fa-check check-icon"></i>
                         </span>
                         <span class="item-text">₹100.00 - ₹199.00</span>
                     </li>
-                    <li class="item">
+                    <li class="item" id="price200">
                         <span class="checkbox">
                             <i class="fa-solid fa-check check-icon"></i>
                         </span>
                         <span class="item-text">₹200.00 +</span>
-                    </li>
+                    </li> -->
                 </ul>
 
                 <div class="select-btn1">
@@ -145,91 +145,91 @@
                 </div>
 
                 <ul class="list-items1">
-                    <li class="item1">
+                    <li class="item1" id="foot">
                         <span class="checkbox1">
                             <i class="fa-solid fa-check check-icon1"></i>
                         </span>
                         <span class="item-text1">Foot Wear</span>
                     </li>
-                    <li class="item1">
+                    <li class="item1" id="kitchen">
                         <span class="checkbox1">
                             <i class="fa-solid fa-check check-icon1"></i>
                         </span>
                         <span class="item-text1">Kitchen Ware</span>
                     </li>
-                    <li class="item1">
+                    <li class="item1" id="electronic">
                         <span class="checkbox1">
                             <i class="fa-solid fa-check check-icon1"></i>
                         </span>
                         <span class="item-text1">Electronics</span>
                     </li>
-                    <li class="item1">
+                    <li class="item1" id="uncat">
                         <span class="checkbox1">
                             <i class="fa-solid fa-check check-icon1"></i>
                         </span>
                         <span class="item-text1">Uncategorized</span>
                     </li>
-                    <li class="item1">
+                    <li class="item1" id="anti">
                         <span class="checkbox1">
                             <i class="fa-solid fa-check check-icon1"></i>
                         </span>
                         <span class="item-text1">Anti puncture Liquid</span>
                     </li>
-                    <li class="item1">
+                    <li class="item1" id="bathroom">
                         <span class="checkbox1">
                             <i class="fa-solid fa-check check-icon1"></i>
                         </span>
                         <span class="item-text1">Bathroom Accessories</span>
                     </li>
-                    <li class="item1">
+                    <li class="item1" id="chopper">
                         <span class="checkbox1">
                             <i class="fa-solid fa-check check-icon1"></i>
                         </span>
                         <span class="item-text1">Chopper</span>
                     </li>
-                    <li class="item1">
+                    <li class="item1" id="mens">
                         <span class="checkbox1">
                             <i class="fa-solid fa-check check-icon1"></i>
                         </span>
                         <span class="item-text1">Men's fashion</span>
                     </li>
-                    <li class="item1">
+                    <li class="item1" id="women">
                         <span class="checkbox1">
                             <i class="fa-solid fa-check check-icon1"></i>
                         </span>
                         <span class="item-text1">Women's Fashion</span>
                     </li>
-                    <li class="item1">
+                    <li class="item1" id="electric">
                         <span class="checkbox1">
                             <i class="fa-solid fa-check check-icon1"></i>
                         </span>
                         <span class="item-text1">Electric Appliances</span>
                     </li>
-                    <li class="item1">
+                    <li class="item1" id="grocery">
                         <span class="checkbox1">
                             <i class="fa-solid fa-check check-icon1"></i>
                         </span>
                         <span class="item-text1">Grocery</span>
                     </li>
-                    <li class="item1">
+                    <li class="item1" id="house">
                         <span class="checkbox1">
                             <i class="fa-solid fa-check check-icon1"></i>
                         </span>
                         <span class="item-text1">Household Supplies</span>
                     </li>
-                    <li class="item1">
+                    <li class="item1" id="industrial">
                         <span class="checkbox1">
                             <i class="fa-solid fa-check check-icon1"></i>
                         </span>
                         <span class="item-text1">Industrial Supplies</span>
                     </li>
-                    <li class="item1">
+                    <li class="item1" id="watch">
                         <span class="checkbox1">
                             <i class="fa-solid fa-check check-icon1"></i>
                         </span>
                         <span class="item-text1">Watches</span>
                     </li>
-                    <li class="item1">
+                    <li class="item1" id="jewellery">
                         <span class="checkbox1">
                             <i class="fa-solid fa-check check-icon1"></i>
                         </span>
@@ -242,6 +242,61 @@
         <div id="shop">
             
 
+        </div>
+    </div>
+
+    <div id="footer">
+        <h2>Want style Ideas and Treats?</h2>
+        <form action="" id="footForm">
+            <input type="email" placeholder="Enter Email *" id="email" required>
+            <input type="submit" value="Subscribe">
+        </form>
+        <hr>
+        <div id="footInfo">
+            <div>
+                <img src="https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/uboric.png" alt="">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div>
+                <div>
+                    <h6>SUPPORT</h6>
+                    <p>About Us</p>
+                    <p>Contact Us</p>
+                </div>
+                <div>
+                    <h6>SHOP</h6>
+                    <p>My account</p>
+                </div>
+                <div>
+                    <h6>COMPANY</h6>
+                    <p>Shipping & Returns</p>
+                    <p>Privacy Policy</p>
+                    <p>Terms & Conditions</p>
+                </div>
+                <div>
+                    <h6>CONTACT</h6>
+                    <p>Customer Care</p>
+                    <p>Contact Support Available</p>
+                    <p>Mon To Sat : 10:00 Am to 6:00 Pm</p>
+                    <p>E-mail</p>
+                    <p>uboricllp@gmail.com</p>
+                    <p>Mobile</p>
+                    <p>+91 97243 82162</p>
+                    <p>+91 82000 99386</p>
+                </div>
+            </div>
+            
+        </div>
+        <hr>
+        <div id="media">
+            <div>
+                <h5 id="copyright">© 2019 - 2022 UBORIC. ALL RIGHTS RESERVED.</h5>
+            </div>
+            <div >
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
         </div>
     </div>
     

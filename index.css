@@ -376,16 +376,43 @@ h1{
     grid-template-columns: repeat(3 , 1fr);
 }
 
+#bestSell > div{
+    overflow: hidden;
+}
+
+#bestSell > div img{
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#bestSell > div:hover img{
+    transform: scale(1.050);
+}
+
 #newArr{
-    height: 300px;
     /* border: 1px solid blue; */
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 15px;
+    
+}
+
+#newArr > div{
+    overflow: hidden;
+    /* border: 1px solid red; */
 }
 
 #newArr > div img{
     width: 100%;
+}
+
+#newArr > div img{
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#newArr > div:hover img{
+    transform: scale(1.050);
 }
 
 #para{

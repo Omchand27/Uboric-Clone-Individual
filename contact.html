@@ -39,7 +39,7 @@
             <a href="#" id="click-b" onClick="openSearch()"><i class="fa-solid fa-magnifying-glass"></i></a>
             <a href="#" id="click-a" onClick="openNav()"><i class="fa-regular fa-user"></i></a>
             <a href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
-            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a href="payment.html"><i class="fa-solid fa-bag-shopping"></i></a>
         </div>
     </div>
 
@@ -124,7 +124,7 @@
             <p>uboricllp@gmail.com</p>
         </div>
         <div id="fill">
-            <form action="">
+            <form action="" id="send">
                 <input type="text" placeholder="Your Name *" id="name" required>
                 <input type="email" placeholder="Your Email *" id="email" required>
                 <input type="number" placeholder="Your Phone" id="number">
@@ -194,3 +194,9 @@
 </html>
 
 <script src="common.js"></script>
+<script>
+
+    document.querySelector("#send").addEventListener("submit", function(){
+        alert("we will contact you soon")
+    })
+</script>
