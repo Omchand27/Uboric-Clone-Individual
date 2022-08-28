@@ -53,9 +53,19 @@ function displayProd(prodDetailsArr){
 
         let cart = document.createElement("button")
         cart.innerText="Add to Cart";
+        cart.addEventListener("click", function(){
+            location.href="payment.html"
+            localStorage.setItem("quantity", quantity.value)
+        })
 
         let buy = document.createElement("button")
         buy.innerText="Buy Now";
+        buy.addEventListener("click", function(){
+            location.href="payment.html"
+            localStorage.setItem("quantity", quantity.value)
+            
+        })
+        
 
         let wish = document.createElement("button")
         wish.innerText="Add to Wishlist";

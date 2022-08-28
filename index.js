@@ -53,10 +53,13 @@ function regData(e){
 
     if(name == "" || email == "" || password == ""){
         alert("Some Fields are empty")
-    }else{
+    }else if(name != "" || email != "" || password != ""){
         regArr.push(obj)
         localStorage.setItem("registerdata", JSON.stringify(regArr))
         alert("Register Successful")
+        closeReg()
+    }else{
+        alert("Wrong Details")
     }
 }
 
@@ -67,10 +70,39 @@ function loginData(e){
     regArr.forEach(function(ele){
         
         if(document.querySelector("#loginEmail").value === ele.email && document.querySelector("#password").value === ele.password){
-            alert("Login Successful")
+            alert("Login Successful" + " " +ele.name)
+            closeNav()
         }else{
             alert("Wrong Details")
         }
     })
     
 }
+
+document.querySelector("#box1").addEventListener("click", function(){
+    location.href="shop.html"
+})
+
+document.querySelector("#box2").addEventListener("click", function(){
+    location.href="shop.html"
+})
+
+document.querySelector("#box3").addEventListener("click", function(){
+    location.href="shop.html"
+})
+
+document.querySelector("#bath").addEventListener("click", function(){
+    location.href="shop.html"
+})
+
+document.querySelector("#elect").addEventListener("click", function(){
+    location.href="shop.html"
+})
+
+document.querySelector("#cloth").addEventListener("click", function(){
+    location.href="shop.html"
+})
+
+document.querySelector("#paint").addEventListener("click", function(){
+    location.href="shop.html"
+})
