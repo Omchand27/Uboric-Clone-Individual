@@ -14,7 +14,7 @@
   <li>Protected routes</li>
 </ul>
 
-<h2>Here are some of the Glimpses of our website..</h2>
+<h1>Here are some of the Glimpses of our website..</h1>
 <h3>Navbar & landing page</h3>
 
 <img src="https://iili.io/HxvNLZP.md.png" />
@@ -29,4 +29,3 @@
 
 
 
-<h1>Here are some of the Glimpses of our website..</h1>
