@@ -11,3 +11,6 @@ Cart Functionality
 Adding or removing or increase or decrease the quantity off product
 Proper authentication provided to Login and Signup
 Protected routes
+
+
+<h1>Here are some of the Glimpses of our website..</h1>
